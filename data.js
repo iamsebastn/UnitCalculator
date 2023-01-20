@@ -1,14 +1,18 @@
 export const conversions = [
-    length = {
-        title: "Length (Meter/Feet)",
-        ratio: 3.281 // 1m = 3.281 feet
+    {
+        "title": "Length (Meter/Feet)",
+        "ratio": 3.281, // 1m = 3.281 feet
+        "id": "length"
     },
-    volume = {
-        title: "Volume (Liter/Gallons)",
-        ratio: 0.264 // 1 liter = 2.204 gallons
+    {
+        "title": "Volume (Liter/Gallons)",
+        "ratio": 0.264, // 1 liter = 2.204 gallons
+        "id": "volume"
     },
-    mass = {
-        title: "Mass (Kilograms/Pounds)",
-        ratio: 2.204 // 1 kg = 2.204 pounds
+    {
+        "title": "Mass (Kilograms/Pounds)",
+        "ratio": 2.204, // 1 kg = 2.204 pounds
+        "id": "mass"
     }
 ]
+
