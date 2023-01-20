@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Inter', sans-serif;
+
+    display: grid;
+
+    background: #1C1C1C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fs-h1: 3.625rem;
+    --fs-h2: 1.75rem;
+    --fs-h3: 1.25rem;
+    --fs-p: 1rem;
+    --fs-eye: 0.875rem;
+
+    --fw-bold: 800;
+    --fw-medium: 600;
+    --fw-regular: 500;
+    --fw-light: 400;
+
+    --clr-main: #fff;
+    --clr-bg: #F4F4F4;
+    --clr-light: #6943FF;
+    --clr-dark: #5A537B;
+    --clr-txt: #353535;
+}
+
+/* ==========
+    DIVs
+========== */
+
+.page-content {
+    width: 34.375em;
+    height: 45.5625em;
+
+    margin: auto;
+
+    background: var(--clr-bg)
+}
+
+.hero {
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 2.06em 0 2.1235em;
+
+    color: var(--clr-main);
+    background: var(--clr-light);
+}
+
+.conversion-wr {
+    width: 100%;
+    padding: 2.25em 1.56em;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.46em;
+}
+
+.conversion-item {
+    width: 100%;
+    padding: 1.9375em 0 1.171em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.56em;
+
+    background: var(--clr-main)
+}
+
+/* ==========
+    TYPO
+========== */
+
+.txt-h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-h1);
+    line-height: 1;
+
+    text-align: center;
+}
+
+.txt-h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-h2);
+    line-height: 1.36;
+
+    text-align: center;
+    letter-spacing: -0.03em;
+}
+
+.txt-h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: var(--fw-medium);
+    font-size: var(--fs-h3);
+    line-height: 1;
+    
+    text-align: center;
+    
+    color: #5A537B;
+}
+
+.txt-eye {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: var(--fw-light);
+    font-size: var(--fs-eye);
+    line-height: 1.43;
+    
+    text-align: center;
+    
+    color: #353535;
+}
+/* ==========
+    BTNS
+========== */
+
+.convert-btn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-p);
+    line-height: 1.5;
+
+    padding: 0.5625em 1.68em;
+
+    background: #FFFFFF;
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.delete-btn {
+    margin-top: 0.75em;
+
+    color:rgba(255, 255, 255, 0.55);
+    background: none;
+    border: none;
+
+    cursor: pointer;
+}
+
+/* ==========
+    UTILITY
+========== */
+
+.input {
+    width: 2.01em;
+    height: 1.43em;
+
+    margin: 0.51em 0 0.43em 0;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-h1);
+    line-height: 1.5;
+    text-align: center;
+
+    color: var(--clr-main);
+    background: var(--clr-light);
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-h1);
+    line-height: 1.5;
+    text-align: center;
+
+    color: var(--clr-main);
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+/* ==========
+    MEDIA
+========== */

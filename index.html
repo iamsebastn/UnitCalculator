@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Unit-Calculator</title>
+</head>
+<body>
+    <main class="page-content">
+        <section class="hero">
+            <h1 class="txt-h2">Metric/Imperial Unit Converter</h1>
+            <input class="input" id="input" type="number" placeholder="0">
+            <button class="convert-btn" id="convert-btn">Convert</button>
+            <button class="delete-btn" id="delete">Delete input</button>
+        </section>
+        <section class="conversion-wr">
+            <div class="conversion-item">
+                <h3 class="txt-h3">Length (Meter/Feet)</h3>
+                <p class="txt-eye"><span id="length-mf">-</span> | <span id="length-fm">-</span></p>
+            </div>
+            <div class="conversion-item">
+                <h3 class="txt-h3">Volume (Liters/Gallons)</h3>
+                <p class="txt-eye"><span id="length-lg">-</span> | <span id="length-gl">-</span></p>
+            </div>
+            <div class="conversion-item">
+                <h3 class="txt-h3">Mass (Kilogramm/Pounds)</h3>
+                <p class="txt-eye"><span id="length-kp">-</span> | <span id="length-pk">-</span></p>
+            </div>
+        </section>
+    </main>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
